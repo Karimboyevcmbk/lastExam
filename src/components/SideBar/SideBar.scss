@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Raleway:wght@600&display=swap');
+
+.sideBar{
+    width: 290px;
+    height: 100%;
+    background-color: #000;
+    padding-left: 30px;
+    padding-right: 30px;
+    .Sidebar__Sections{
+        padding: 70px 0 20px 0;
+        border-bottom: 1px solid #fff;
+        .sideBarTitles{
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            li{
+                display: flex;
+                align-items: center;
+                gap: 20px;   
+                color: #fff;     
+                font-size: 30px;        
+                a{
+                    text-decoration: none;
+                    color: #fff;
+                    font-family: "Montserrat",sans-serif;
+                    font-size: 18px;
+                }
+            }
+            .boshqacha{
+                color: #b2b2b2;
+                a{
+                    color: #b2b2b2;
+                }
+            }
+            .boshqacha2{
+                margin-top: 30px;
+            }
+        }
+    }
+    .musics{
+        ul{
+            padding-top: 20px;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            li{
+                a{
+                    color: #fff;
+                    list-style-type: none;
+                    font-size: 18px;
+                    font-family: "Montserrat",sans-serif;
+                    font-weight: 450;
+                    color: #B3B3B3;
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Raleway:wght@600&display=swap');
+
+.singleMap{
+    width: 950px;
+    background: linear-gradient(200deg, #DEF628 .09%, #121212 28.28%);  
+    padding-left: 50px;
+    padding-right: 50px;
+    .section1{
+        width: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 20px 0 50px 0;
+        div{
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            display: flex;
+            align-items: center;
+            color: #fff;
+            background-color: #6f7b14;
+            font-size: 25px;
+            justify-content: center;
+        }
+    } 
+    .playlist{
+        height: 297px;
+        display: flex;
+        gap: 32px;
+        img{
+            height: 297px;
+            width: 297px;
+        }
+        .titles{
+            span{
+                color: #fff;
+                font-family: "Montserrat",sans-serif;
+                font-size: 13px;
+            }
+            h3{
+                font-size: 70px;
+                color: #fff;
+                font-family: "Montserrat",sans-serif;
+            }
+            p{
+                color: #fff;
+                font-family: "Montserrat",sans-serif;
+                font-size: 20px;  
+                margin-top: 12px;
+                margin-bottom: 12px;  
+            }
+            h4{
+                color: #fff;
+                font-family: 'Montserrat',sans-serif;
+                font-size: 14px;
+                font-weight: 300;
+            }
+        }
+    } 
+    .section3Salom{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 62px;
+        .bil{
+            display: flex;
+            align-items: center;
+            gap: 36px;
+            .playButton{
+                width: 72px;
+                height: 72px;
+                border-radius: 50%;
+                background-color: green;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                font-size: 25px;
+            }
+        }
+        .bilma{
+            display: flex;
+            align-items: center;
+            gap: 35px;
+            .select{
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                color: #FFF;
+                font-size: 14px;
+                font-family: 'Montserrat',sans-serif;
+                width: 120px;
+            }
+        }
+    } 
+    .sectionNames{
+        height: 48px;
+        border-bottom: 1px solid #fff;
+        margin-top: 30px;
+        padding: 9px 20px;
+        display: flex;
+        align-items: center;
+        p{
+            color: rgba(179, 179, 179, 1);
+            font-size: 20px;
+            font-family: 'Monserrat',sans-serif;
+        }
+    }
+    .musicsFetch{
+        padding: 9px 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        .biladm2x{
+            display: flex;
+            align-items: center;
+            img{
+                width: 52px;
+                height: 52px;
+            }
+            p:first-child{
+                margin-right: 20px;
+                font-family: 'Montserrat',sans-serif;
+                color: #fff;
+                font-size: 20px;
+                width: 20px;
+            }
+            .faxa{
+                color: #fff;
+                font-family: 'Montserrat',sans-serif;
+                font-size: 15px;
+                width: 200px;
+                margin-right: 45px;
+            }
+            .birNarsa{
+                color: #fff;
+                margin-left: 30px;
+                width: 200px;
+            }
+        }
+    }
+}

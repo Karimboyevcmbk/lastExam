@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Raleway:wght@600&display=swap');
+
+.HomeSection3{
+    margin-top: 50px;
+    h2{
+        color: #fff;
+        font-family: 'Montserrat',sans-serif;
+        font-size: 30px;
+    }
+    .sectionMusic{
+        display: flex;
+        gap: 10px;
+        margin-top: 26px;
+        .musics{
+            width: 200px;
+            height: 324px;
+            padding: 10px;
+            background-color: #1b1b1b;
+            border-radius: 6px;
+            img{
+                width: 180px;
+                height: 170px;
+                border-radius: 10px;
+            }
+            p{
+                color: #fff;
+                margin-top: 25px;
+                font-family: "Montserrat",sans-serif;
+                font-weight: 600;
+                margin-bottom: 8px;
+                font-size: 18px;
+            }
+            span{
+                color: rgba(179, 179, 179, 1);
+                font-family: "Montserrat",sans-serif;
+
+            }
+
+        }
+    }
+}

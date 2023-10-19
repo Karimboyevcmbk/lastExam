@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Raleway:wght@600&display=swap');
+
+.accaunt{
+    height: 100vh;
+    background-color: #000;
+    width: 260px;
+    position: fixed;
+    right: 0;
+    padding: 29px 10px;
+    .acaunt__section1{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 39px;
+        p{
+            color: #fff;
+            font-family: 'Montserrat',sans-serif;
+            font-weight: 700;
+        }
+        .icons{
+            color: #fff;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            font-size: 20px;
+        }
+    }
+    span{
+        color: #fff;
+        font-family: "Montserret",sans-serif;
+        font-size: 13px;
+        font-weight: 400;
+    }
+    .acaauntUser{
+        margin-top: 23px;
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        .acaauntUser__section1{
+            position: relative;
+            width: 62px;
+            height: 62px;
+            border-radius: 50%;
+            background-color: #36363d;
+            color: #fff;
+            font-size: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            .kok{
+                width: 10px;
+                height: 10px;
+                border-radius: 50%;
+                background-color: blue;
+                position: absolute;
+                top: 5px;
+                right: 5px;
+            }
+        }
+        .acaauntUser__section2{
+            div{
+                width: 90px;
+                height: 10px;
+                border-radius: 20px;
+                background-color: #36363d;
+            }
+            button{
+                width: 70px;
+                height: 10px;
+                border-radius: 20px;
+                background-color: #36363d;
+                border: none;
+            }
+        }
+    }
+    p{
+        color: #fff;
+        font-family: 'Montserrat',sans-serif;
+        font-weight: 400;
+        font-size: 13.5px;
+        margin-top: 21px;
+    }
+    .Settings{
+        width: 233px;
+        height: 62px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50px;
+        margin-top: 23px;
+    }
+}

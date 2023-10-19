@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Raleway:wght@600&display=swap');
+
+.Home{
+    width: 971px;
+    background: linear-gradient(180deg, #3333A3 5.09%, #121212 33.4%);    
+    padding-left: 50px;
+    padding-right: 50px;
+    .section1{
+        width: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 20px 0 50px 0;
+        div{
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            display: flex;
+            align-items: center;
+            color: #fff;
+            background-color: #1a1a51;
+            font-size: 25px;
+            justify-content: center;
+        }
+    }
+    h1{
+        color: #fff;
+        font-size: 40px;
+        font-family: 'Montserrat',sans-serif;
+        font-weight: 700;
+        margin-bottom: 30px;
+    }
+}

@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Raleway:wght@600&display=swap');
+
+.Home__section2{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap:30px;
+    .heroItems{
+        width: 400px;
+        height: 80px;
+        display: flex;
+        align-items: center;
+        gap: 21px;
+        background-color: #303049;
+        border-radius: 10px;
+        overflow: hidden;
+        img{
+            width: 80px;
+            height: 80px;
+        }
+        p{
+            color: #fff;
+            font-family: 'Montserrat',sans-serif;
+            font-weight: 600;
+        }
+    }
+}
